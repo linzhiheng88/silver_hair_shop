@@ -1,0 +1,216 @@
+<template>
+  <div>
+    <my-header :breadcrumbList="['微信广告管理']"></my-header>
+    <div class="page-body-main">
+      <condition @addClick="addOrEditModal"  :weappAuto="true" :weappDefault="true" @searchClick="doSearch" @weappClick="weappClick"></condition>
+      <page-table
+        ref="pageTable"
+        @onDataLoad="onDataLoad"
+        @pushData="pushData"
+        :columns="columns"
+        :dataList="dataList"
+      >
+      </page-table>
+    </div>
+  </div>
+</template>
+<script>
+import Modal from "./components/Modal";
+export default {
+  name: 'Demo',
+  data: function () {
+    return {
+      keywordObj:{
+        weapp_id:null,
+        keyword: '',
+      },
+      dataList: [],
+      columns: [
+        {
+          title: '上传时间',
+          minWidth:160,
+          align: 'center',
+          render: (h, params) => {
+            return h('div',this.$utils.changeTimeDate(params.row.time).dateTime)
+          }
+        },
+        {
+          title: '图片',
+          key: 'avaheadimgurltar',
+          align: 'center',
+          minWidth:100,
+          render: (h, params) => {
+            return h('div', [
+
+              h('el-image', {
+                attrs: {
+                  src: params.row.img,
+                  previewSrcList:[params.row.img],
+                },
+                style: {
+                  width: '50px'
+                },
+              }),
+            ]);
+          }
+        },
+
+        {
+          title: '#URL',
+          key: 'img',
+          align: 'center',
+          fixed: 'left',
+          minWidth:80,
+        },
+
+        {
+          title: '操作',
+          key: 'action',
+          align: 'center',
+          width:200,
+          fixed: 'right',
+          render: (h, params) => {
+            return h('div', [
+
+              h('Button', {
+                props: {
+                  size: 'small',
+                  type: 'primary',
+                },
+                style: {
+                  marginRight: '10px',
+                },
+                on: {
+                  click: () => this.addOrEditModal(params)
+                }
+              }, '编辑'),
+              h('Button', {
+                props: {
+                  size: 'small',
+                  type: 'error',
+                },
+                on: {
+                  click: () => this.deleteModal(params)
+                }
+              }, '删除')
+            ])
+          },
+        },
+      ],
+    }
+  },
+
+  mounted() {
+    let arr=[]
+
+    let dataList=[]
+
+    for(let i in arr){
+      let item=arr[i]
+
+
+      let time=parseInt(Number(item[1])/10000)
+
+      dataList.push({
+        img:'https://qiniu.touchdot.top/'+item[0],
+        time:time,
+      })
+    }
+
+    dataList=dataList.sort(this.sortFunc)
+    this.dataList=dataList
+
+
+  },
+
+
+
+  methods: {
+
+
+    sortFunc(a,b){
+      // return (a.time - b.time);  //顺序
+      return (b.time - a.time);  //倒序
+    },
+
+
+    //添加或编辑
+    async addOrEditModal(params) {
+      this.$dialog.open({
+        title: params?"修改":'添加',
+        resizable: true,
+        component: Modal,
+        height: 300,
+        width: 600,
+        extra: params?params.row:undefined,
+        btn: ["确定", "取消"],
+        onDismiss: index => {
+          if (index === 0) {
+            this.refreshCurrent();
+            return true;
+          }
+        }
+      });
+    },
+    //删除
+    async deleteModal(params){
+      this.$dialog.confirm({
+        message: '是否删除此数据？',
+        width: 300,
+        height:200,
+        onBtn: async index => {
+          if (index !== 0) return true;
+          let result = await this.$request({
+            url:'/good/add/'+params.row.id,
+            method: 'delete'
+          })
+          if (result.status == 1) {
+            this.$Message.success('刪除成功');
+            this.refreshCurrent();
+            return true;
+          } else {
+            this.$Message.info('删除失败');
+          }
+        }
+      });
+    },
+
+
+    onDataLoad: async function (options, callback) {
+      if (this.keywordObj.keyword) {
+        options.keyword = [
+          {note:this.keywordObj.keyword},
+          {ad_id:this.keywordObj.keyword},
+        ];
+      }
+      const result = await this.$request({
+        url:'/wechatAd/list/'+options.page+'/'+options.pageSize,
+        method:'post',
+        data:options
+      });
+      callback(result);
+    },
+
+    refreshCurrent: function () {
+      this.$refs.pageTable.loadData();
+    },
+
+    pushData(items){
+      console.log(items);
+      this.dataList = items
+    },
+    doSearch(keyword){
+      this.keywordObj.keyword = keyword;
+      this.$refs.pageTable.reload();
+    },
+    weappClick(weapp_id){
+      this.keywordObj.weapp_id=weapp_id
+      this.$refs.pageTable.reload();
+    },
+  },
+}
+</script>
+
+<style scoped="">
+
+</style>

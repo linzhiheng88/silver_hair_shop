@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3926719-3399-4853-846a-1e4adb07a6a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/activity/components/classModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/activity/components/classModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/banner/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/banner/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/comments/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/comments/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/demo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/demo/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ep/alibabaOrder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ep/alibabaOrder.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ep/goodDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ep/goodDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ep/jd/goodDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ep/jd/goodDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ep/jd/jdOrder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ep/jd/jdOrder.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/good/add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/good/add.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/good/components/addSecondsKillGoodModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/good/components/addSecondsKillGoodModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/good/secondsKillGood.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/good/secondsKillGood.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/order/components/orderModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/order/components/orderModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/order/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/order/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/orderAfter/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/orderAfter/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/user/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/user/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/weapp/components/tabbarModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/weapp/components/tabbarModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget/Condition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/Condition.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/views/orderAfter/components/orderModal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/coupon/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/banner/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/orderAfter/components/refundMoneyModal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/router/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/user/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/bill/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/sysPage/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/widget/Condition.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/widget/UploadImage.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/see-logistics-modal-comp.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/indexClassTag/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/activity/components/themeModal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/industryPackage/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/indexClassTag/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/industryPackage/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/indexBox/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/ep/offerSearch.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/ep/hostList.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/platform/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/weapp/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/utils/utils.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/widget/dialog/Confirm.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/weapp/components/Modal.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/store/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/good/add.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/views/banner/index.vue" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1wZ1QUe15OBBJ25JOI9LrWaAqKe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.serve" />
+      <item itemvalue="npm.build" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3926719-3399-4853-846a-1e4adb07a6a9" name="Default Changelist" comment="" />
+      <created>1628651280405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628651280405</updated>
+      <workItem from="1628651282339" duration="11206000" />
+      <workItem from="1628765020109" duration="7080000" />
+      <workItem from="1629185940963" duration="10220000" />
+      <workItem from="1629363026087" duration="18392000" />
+      <workItem from="1629767507474" duration="8218000" />
+      <workItem from="1629799527939" duration="33698000" />
+      <workItem from="1630211234476" duration="128000" />
+      <workItem from="1630285816958" duration="27963000" />
+      <workItem from="1630548650068" duration="7853000" />
+      <workItem from="1630923664128" duration="8022000" />
+      <workItem from="1631072328438" duration="5175000" />
+      <workItem from="1631167811051" duration="3414000" />
+      <workItem from="1631172874970" duration="4717000" />
+      <workItem from="1631236728682" duration="6786000" />
+      <workItem from="1631586876192" duration="967000" />
+      <workItem from="1631589152873" duration="29939000" />
+      <workItem from="1632386851891" duration="1795000" />
+      <workItem from="1632446397580" duration="6201000" />
+      <workItem from="1632618703525" duration="9476000" />
+      <workItem from="1632818071854" duration="1170000" />
+      <workItem from="1632819250339" duration="5407000" />
+      <workItem from="1632969416921" duration="753000" />
+      <workItem from="1633657157611" duration="2638000" />
+      <workItem from="1634182734573" duration="943000" />
+      <workItem from="1634193182695" duration="329000" />
+      <workItem from="1634193537328" duration="6381000" />
+      <workItem from="1634529089594" duration="221000" />
+      <workItem from="1634529317997" duration="9244000" />
+      <workItem from="1634612683934" duration="139000" />
+      <workItem from="1634612992811" duration="6258000" />
+      <workItem from="1634713151319" duration="1877000" />
+      <workItem from="1634798825509" duration="13799000" />
+      <workItem from="1635131027716" duration="670000" />
+      <workItem from="1635210474997" duration="6132000" />
+      <workItem from="1635242891671" duration="997000" />
+      <workItem from="1635297717745" duration="16097000" />
+      <workItem from="1635388232150" duration="11510000" />
+      <workItem from="1635408458908" duration="18023000" />
+      <workItem from="1635734009261" duration="28134000" />
+      <workItem from="1636076333644" duration="7566000" />
+      <workItem from="1636447549206" duration="2609000" />
+      <workItem from="1636507741387" duration="1710000" />
+      <workItem from="1636529408063" duration="9364000" />
+      <workItem from="1636613317006" duration="8469000" />
+      <workItem from="1636943439627" duration="3521000" />
+      <workItem from="1636968069916" duration="5246000" />
+      <workItem from="1637049465250" duration="12556000" />
+      <workItem from="1637141124890" duration="1674000" />
+      <workItem from="1637292410642" duration="7886000" />
+      <workItem from="1637568809092" duration="2237000" />
+      <workItem from="1637574401979" duration="2604000" />
+      <workItem from="1637811611074" duration="5386000" />
+      <workItem from="1638159384664" duration="1079000" />
+      <workItem from="1638254869650" duration="12595000" />
+      <workItem from="1638755332503" duration="8710000" />
+      <workItem from="1638946926228" duration="1586000" />
+      <workItem from="1639013289359" duration="686000" />
+      <workItem from="1639030461446" duration="624000" />
+      <workItem from="1639104893471" duration="2731000" />
+      <workItem from="1639110523579" duration="7000" />
+      <workItem from="1639123959667" duration="1493000" />
+      <workItem from="1639185021164" duration="23000" />
+      <workItem from="1639363406013" duration="14514000" />
+      <workItem from="1639727347658" duration="2158000" />
+      <workItem from="1639964022805" duration="840000" />
+      <workItem from="1639987026604" duration="3614000" />
+      <workItem from="1640328454076" duration="1899000" />
+      <workItem from="1640570497818" duration="4641000" />
+      <workItem from="1640655585949" duration="19791000" />
+      <workItem from="1640831809347" duration="7115000" />
+      <workItem from="1641352672820" duration="10419000" />
+      <workItem from="1641694948087" duration="7000" />
+      <workItem from="1641886430197" duration="1465000" />
+      <workItem from="1642143999312" duration="522000" />
+      <workItem from="1643430379855" duration="589000" />
+      <workItem from="1644569738377" duration="1818000" />
+      <workItem from="1644888159663" duration="9167000" />
+      <workItem from="1645078504853" duration="16000" />
+      <workItem from="1645079039725" duration="2417000" />
+      <workItem from="1645514611731" duration="3303000" />
+      <workItem from="1645598444042" duration="4699000" />
+      <workItem from="1646208132698" duration="546000" />
+      <workItem from="1646288942251" duration="3997000" />
+      <workItem from="1648517281329" duration="3629000" />
+      <workItem from="1648862929116" duration="3035000" />
+      <workItem from="1649658655684" duration="3362000" />
+      <workItem from="1650275402709" duration="9417000" />
+      <workItem from="1650515337513" duration="5038000" />
+      <workItem from="1650589984244" duration="1000" />
+      <workItem from="1650765609818" duration="574000" />
+      <workItem from="1650766417466" duration="7518000" />
+      <workItem from="1650944427017" duration="9290000" />
+      <workItem from="1651109492899" duration="1743000" />
+      <workItem from="1651112810885" duration="1689000" />
+      <workItem from="1651195293608" duration="18000" />
+      <workItem from="1651219503396" duration="3867000" />
+      <workItem from="1651724800866" duration="1433000" />
+      <workItem from="1651824040182" duration="1884000" />
+      <workItem from="1651907354327" duration="6913000" />
+      <workItem from="1652175579836" duration="6597000" />
+      <workItem from="1652262946998" duration="8666000" />
+      <workItem from="1652422730800" duration="10046000" />
+      <workItem from="1652750810839" duration="3000" />
+      <workItem from="1652774360238" duration="5148000" />
+      <workItem from="1652854998348" duration="15090000" />
+      <workItem from="1653010816329" duration="6389000" />
+      <workItem from="1653374230126" duration="3315000" />
+      <workItem from="1653447405973" duration="15513000" />
+      <workItem from="1653552922785" duration="133000" />
+      <workItem from="1653899220606" duration="226000" />
+      <workItem from="1653980458184" duration="827000" />
+      <workItem from="1653983132781" duration="11000" />
+      <workItem from="1654053109248" duration="5964000" />
+      <workItem from="1654077293078" duration="4000" />
+      <workItem from="1654077342576" duration="503000" />
+      <workItem from="1654571732793" duration="3009000" />
+      <workItem from="1655179127209" duration="3475000" />
+      <workItem from="1655367788140" duration="1137000" />
+      <workItem from="1656297180080" duration="4733000" />
+      <workItem from="1656410322270" duration="219000" />
+      <workItem from="1656411213494" duration="605000" />
+      <workItem from="1656465261791" duration="335000" />
+      <workItem from="1656555890505" duration="807000" />
+      <workItem from="1656664103650" duration="1148000" />
+      <workItem from="1657014519757" duration="2000" />
+      <workItem from="1657070419277" duration="6015000" />
+      <workItem from="1657091923927" duration="17100000" />
+      <workItem from="1657187993276" duration="533000" />
+      <workItem from="1657247216868" duration="3178000" />
+      <workItem from="1657607970129" duration="3355000" />
+      <workItem from="1657699293701" duration="3899000" />
+      <workItem from="1657766378875" duration="4474000" />
+      <workItem from="1657792592420" duration="2455000" />
+      <workItem from="1658219565149" duration="1693000" />
+      <workItem from="1658452525682" duration="453000" />
+      <workItem from="1658820534846" duration="68000" />
+      <workItem from="1658981852216" duration="342000" />
+      <workItem from="1659343126399" duration="734000" />
+      <workItem from="1659423704775" duration="709000" />
+      <workItem from="1659431652030" duration="906000" />
+      <workItem from="1659434441847" duration="89000" />
+      <workItem from="1659440746035" duration="3630000" />
+      <workItem from="1659837458321" duration="1149000" />
+      <workItem from="1660702040275" duration="1433000" />
+      <workItem from="1660966933707" duration="1268000" />
+      <workItem from="1661131998373" duration="1000" />
+      <workItem from="1661155145622" duration="3146000" />
+      <workItem from="1661755908453" duration="1273000" />
+      <workItem from="1662105318874" duration="950000" />
+      <workItem from="1662433865411" duration="1198000" />
+      <workItem from="1662534104164" duration="580000" />
+      <workItem from="1662564852882" duration="1944000" />
+      <workItem from="1663816599715" duration="447000" />
+      <workItem from="1664510187603" duration="735000" />
+      <workItem from="1665453832660" duration="663000" />
+      <workItem from="1666064595824" duration="28000" />
+      <workItem from="1666083266120" duration="1302000" />
+      <workItem from="1666751244529" duration="582000" />
+      <workItem from="1667380796288" duration="648000" />
+    </task>
+    <task id="LOCAL-00001" summary="vue3新版本">
+      <created>1628651551817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628651551817</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vue3新版本">
+      <created>1635297836735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635297836735</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2022-05-25">
+      <created>1653447543185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653447543185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2022-05-25-----">
+      <created>1653452227702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653452227702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2022-05-25">
+      <created>1653452492774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653452492774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2022-05-25">
+      <created>1653453029456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653453029456</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修复更新">
+      <created>1653467419136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653467419136</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修复更新">
+      <created>1655369010212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655369010212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="bf275b3f-8019-47fd-93f7-0bbbbace992f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/bingshengzhou/project/touchdot/companyProject/银发商城/silver_hair_shop_admins/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="bf275b3f-8019-47fd-93f7-0bbbbace992f" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vue3新版本" />
+    <MESSAGE value="2022-05-25-----" />
+    <MESSAGE value="2022-05-25" />
+    <MESSAGE value="修复更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/order/index.vue</url>
+          <line>302</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
